@@ -49,7 +49,7 @@ document.getElementById("create-form").addEventListener("submit", function (e) {
     }
 
     saveAccount({
-        Login: email,
+        login: email,
         password: password,
         transactions: []
     });
