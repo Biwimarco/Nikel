@@ -38,7 +38,7 @@ document.getElementById("transaction-form").addEventListener("submit", function(
 
 checkLogged();
 
-function checkLogged () {
+function checkLogged() {
     if(session) {
         sessionStorage.setItem("logged", session);
         logged = session;
@@ -156,7 +156,7 @@ function getTotal() {
         }
     });
 
-    document.getElementById("total").innerHTML = `R$ ${total.toFixed(2)}`;
+    document.getElementById("Total").innerHTML = `R$ ${total.toFixed(2)}`;
 }
 
 function saveData(data) {
